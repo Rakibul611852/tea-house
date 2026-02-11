@@ -29,7 +29,7 @@
       
          <!-- banner section -->
 
-         <section class="grid grid-cols-2 container border border-red-500 mx-auto">
+         <section class="grid grid-cols-1 md:grid-cols-2 container mx-auto">
                  <div class="banner-left space-y-[30px]">
                     <h2 class="text-[80px] font-bold">It's good <br> tea time at The <br> Tea House</h2>
 
@@ -37,9 +37,19 @@
                     
                     <button class="py-3 px-5 rounded-md text-white font-semibold bg-linear-to-r from-[#FF8938] to-[#FF0000]">Explore More <span class="-rotate-45 inline-block"><i class="fa-solid fa-arrow-right-long"></i></span></button>
                  </div>
-                 <div class="banner-right">
+                 <div class="banner-right flex justify-end items-end relative">
                     <img src="images/banner.png" alt="Tea House Banner">
+
+                      <div class=" bg-white rounded-xl shadow-2xl flex justify-center gap-2 items-center w-[255px] absolute bottom-[15px] left-[200px] py-[25px] px-[15px]">
+                    <img src="./images/banner-rating.png" alt="Tea House Rating">
+
+                            <div>
+                               <h2 class="font-bold text-3xl ">5.00</h2>
+                              <p class="text-[#777777] ">Trust Pilot Ratings</p>
+                            </div>
+                   </div>
                  </div>
+
          </section>
 </body>
 </html>   
